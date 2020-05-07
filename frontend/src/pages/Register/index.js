@@ -23,8 +23,9 @@ export default function Register() {
 
     e.preventDefault() //isso previne o reload padrao do javascript
     const data = { name, email, whatsapp, city, uf }
+    data.whatsapp = "+55".concat(data.whatsapp)
 
-   try{
+  try{
      const res = await api.post('ongs', data)
 
       alert(`Seu ID de acesso: ${res.data.id}`)
@@ -62,7 +63,7 @@ export default function Register() {
             value={email}
             onChange={event => setEmail(event.target.value)}
           />
-          <input type="text" placeholder="Whatsapp"
+          <input type="text" placeholder="DDD + Número"
             value={whatsapp}
             onChange={event => setWhatsapp(event.target.value)}
           />
