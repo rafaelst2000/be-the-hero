@@ -3,7 +3,7 @@
 > Projeto desenvolvido durante a semana Omnistack da Rocketseat :) 
 
 
-# Tecnologias Abordadas:
+# Tecnologias Envolvidas:
 - NodeJS
 - React
 - React Native
