@@ -1,4 +1,5 @@
-# Be The Hero
+![](/frontend/src/assets/logo.svg)
+
 > Projeto desenvolvido durante a semana Omnistack da Rocketseat :) 
 
 
